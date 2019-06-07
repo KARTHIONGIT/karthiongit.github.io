@@ -1,0 +1,485 @@
+html, body {
+  margin: 0;
+   
+  padding: 0;
+}
+
+
+.header
+{
+	
+	background: url(https://w-dog.net/wallpapers/15/10/413767465262290.jpg)no-repeat center center; 
+	background-size: cover;
+	background:title="Title Tag Goes Here";
+	height: 350px;
+	max-width: 100%;
+	text-align: center; 
+	position: relative;
+	margin 0 0;
+}
+.cover{
+	background-size: cover;
+	 position: relative;
+	 width: 100%;
+	 margin: 0 0;
+}
+
+
+.brand
+{
+	font-family: "Century Gothic",light;
+	font-size: 160px;
+	font-color:gray;
+	font-weight:70;
+	text-transform: relative; 
+	position: relative;
+    top: 70px;
+	right: 100px;
+	width: 100%;
+     
+}
+
+.description
+{
+	 
+	font-size: 30px;
+	   text-shadow: 2px  1px #e8e8e8;
+ 
+	font-family: Candara;
+	width: 100%;
+	 
+     margin: 80px 100px 0 130px; 
+     
+    
+
+}
+ .cp
+{
+	font-size: 30px;
+	position: relative;
+	right:30px;
+	top: 13px;
+}
+ .unisex
+{
+	
+	font-size: 35px;
+	font-weight: 70;
+	  letter-spacing: 8px;
+	font-family: Agency FB;
+	position: relative;
+	left: 3px;
+	bottom: 100px;
+}
+
+#double
+{
+	font-size: 49px;
+	/*font-family:Vladimir Script;*/
+	font-weight: 40;
+	font-family:Vivaldi;
+	
+
+}
+
+
+.by
+{
+	position: relative;
+	text-align: center; 
+	right: 90px;
+	 
+opacity: 0.7;
+	 
+}
+.btn
+{
+	  
+  cursor: pointer; 
+  color: white;
+    background: linear-gradient(to left, #000000 3%, #00ccff 101%);
+  padding: 10px 40px;
+  font-size:27px;
+  text-decoration: none; 
+  transition: background .5s;
+   float: right;
+   margin-right: 280px;
+}
+
+.btn:hover   {
+  background: DodgerBlue;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+.stick
+{
+	 position: sticky;
+	position: relative;
+	 
+}
+
+.navclass ul
+{
+	height: 60px;
+    background:black;
+	color:white;
+	font-size: 20px;
+	  
+	font-weight: light;
+ 	 
+	 
+}
+
+
+.navclass ul li  
+{
+	 list-style: none;
+	 
+text-decoration: none; 
+	 display: inline-block;
+	 padding:   18.5px;
+	 position: relative;
+	 float: right;
+	 
+}
+.navclass ul li a{
+	text-decoration: none;
+	color:white;
+	
+}
+
+.navclass ul li:hover  
+{
+	background: DodgerBlue;
+	cursor: pointer; 
+	transition: background .5s; 
+}
+
+.logo
+{
+	height: 60px;
+	 
+	left: 20px;
+	float: left;
+	
+}
+
+
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+	height=200px;
+   
+  position: relative;
+  left: 32px;
+ 
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height:  8px;
+  width:  8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+ 
+.ads
+{
+	 
+	 width: auto 10px;
+	height: 100px;
+}
+ 
+ 
+
+.offer h1{
+	font-size: 25px;
+	 font-weight: 100;
+	font-family:"arial";
+	opacity: 0.8;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 100px 0 0 50px;
+	 
+	
+}
+ 
+.offer h3
+{
+	font-weight: 100;
+	font-size: 15px;
+	opacity: 0.5;
+	letter-spacing: 3px;
+	font-family:arial;
+	margin: 5px 0 20px 50px;
+	  
+}
+
+.offer a img
+{ 
+	float:left;
+	margin: 20px;
+	position:relative;
+	left: 30px;
+	top: 20px;
+	 
+	height: 350px;
+	width:280px;
+	background :#edcfbd;
+}
+
+ 
+
+
+
+form {
+	  border: 50px solid transparent;
+  padding: 2px;
+  border-image: url(n1.jpg) 100  ;
+  position:relative;
+  top: 100px;
+	 
+    
+	 
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+     
+
+ 
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 50%;
+   align:center;
+  padding: 12px;
+  margin: 8px 0 8px  5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+    
+}
+
+/* Style the submit button */
+input[type=submit] {
+ background: linear-gradient(to left, #000000 3%, #00ccff 101%);
+  color: white;
+  border: none;
+    font-size:15px;
+text-transform: uppercase;
+letter-spacing: 2px;
+ 
+
+}
+
+input[type=submit]:hover {
+  
+  
+	opacity: 0.8;
+}
+
+ 
+.fashion img
+{
+	width: 60px;
+	margin: 60px 0;
+	height: 6px;
+	position:relative;
+  top: 50px;
+	
+}
+
+.fashion h1{
+	 
+	 position:relative;
+  top: 60px;
+	font-weight:100;
+	opacity: 0.9;
+	padding : 10px 25px 20px 20px ;
+	 font-size: 28px;
+	  text-align:center;
+	  float: left;
+	  height: 60px;
+	   color: white;
+      background-color:black;
+	   
+	
+}
+.fashion img
+{
+	border-radius: 50%;
+	height: 290px;
+	width: 295px;
+	margin: 120px 0 0 0;
+	 
+}
+ 
+ .fashion p
+ {
+	  
+	font-weight:100;
+	opacity: 0.7;
+	position:relative;
+	left:160px;
+	font-size: 20px;
+	 
+  top: 50px;
+	
+ }
+
+footer
+{
+	background-color:black;
+	 
+	height: 300px;
+	position: relative;
+	top: 1100px;
+}
+ .foot {
+	 color:DodgerBlue;
+	 
+	 float:right;
+	 position: relative;
+	 margin:230px 50px 0 0;
+	 right:80px;
+	 font-size: 20px;
+	 font-weight:100;
+	 opacity:0.8;
+	 
+	  
+}
+ hr
+ {width:23%;
+  float:left;
+  opacity:0.5;
+ }
+
+
+.copyrights
+{
+	float: right;
+	color:gray;
+	position:relative;
+	bottom: 10px;
+	left:170px;
+	font-weight:100;
+	font-size: 15px;
+	font-family:Baskerville Old Face;
+	letter-spacing:1px;
+ 
+}
+
+.follow
+{
+	float:right;
+	color:white;
+	font-size:20px;
+	position:relative;
+	bottom: 180px;
+	left:200px;
+	font-weight:100;
+	 opacity:0.8;
+	
+}
+
+.logo2
+{
+	height: 80px;
+	margin: 120px 0  0 120px;  
+	position:relative;
+	right: 80px;
+	bottom:382px;
+	float: right;
+	
+}
+
+.icons
+{
+	float:right;
+	padding: 15px;
+	position: relative;
+	bottom: 170px;
+	left:530px;
+}
+
+.icons i:hover{
+	color:DodgerBlue;
+}
+.icons i 
+{
+	padding:25px;
+}
+
+
+
+.fas fa-clock:hover {
+    color:DodgerBlue !important;
+}
+
+
